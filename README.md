@@ -1,12 +1,14 @@
 # Pomegranate 发布仓库
 
-石榴（Pomegranate）— 智能桌面文档应用。本仓库存放各版本安装包与自动更新清单（`update.json`）。
+石榴（Pomegranate）— 智能桌面文档应用。本仓库存放自动更新清单（`update.json`），安装包托管在 GitHub Releases。
 
 ## 最新版本: v2.2.0
 
 | 平台 | 下载链接 |
 |------|---------|
-| Windows x64 | [Pomegranate_2.2.0_x64-setup.exe](releases/v2.2.0/Pomegranate_2.2.0_x64-setup.exe) |
+| Windows x64 | [Pomegranate_2.2.0_x64-setup.exe](https://github.com/JasonWayne-cn/Pomegranate/releases/download/v2.2.0/Pomegranate_2.2.0_x64-setup.exe) |
+
+> 全部版本：https://github.com/JasonWayne-cn/Pomegranate/releases
 
 ## 版本历史
 
@@ -21,9 +23,9 @@
 ## 项目结构
 
 ```
-releases/
-└── v2.2.0/
-    ├── Pomegranate_2.2.0_x64-setup.exe
-    ├── Pomegranate_2.2.0_x64-setup.exe.sig
-    └── Pomegranate_2.2.0_x64-setup.nsis.zip
+update.json      # Tauri 自动更新清单（签名取自 CI 产物）
+README.md
 ```
+
+安装包由 GitHub Actions 构建并上传至源码仓库的 Releases。本仓库的 `update.json` 为
+应用内自动更新的发现端点（Gitee 主 + GitHub 备）。

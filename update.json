@@ -1,0 +1,11 @@
+{
+  "version": "2.2.0",
+  "notes": "对左侧页面进行了归并，查询和标签归入文档；将推送、记忆卡片归入首页和AI功能中，整体主功能合并为文档、日记、待办、AI问答四大项；增强了AI的智能体功能；扩展了PPT制作，添加了助研插件；按功能模块划分了设置，并添加了使用说明，以及页面导航，以便于使用者了解功能。",
+  "pub_date": "2026-11-22T11:26:02.380Z",
+  "platforms": {
+    "windows-x86_64": {
+      "url": "https://github.com/JasonWayne-cn/Pomegranate/releases/download/v2.2.0/Pomegranate_2.2.0_x64-setup.nsis.zip",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYWlrQmtLV3NkZzkzckRQLzFHOXk2ZGZsRTI0YS9kWTlLZ3VobW5uczArS0pIdnMvWTU2aTRtNTRuS1c1MHIvR0hRVkl5djFUOEd0NFBYVDJnNmorMUk0dWtzZFdZc3dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzQ2NzUzCWZpbGU6UG9tZWdyYW5hdGVfMi4yLjBfeDY0LXNldHVwLm5zaXMuemlwCXZlcnNpb246Mi4yLjAKSFBWU2xwS2s1V3MwRmx1c1BrQjhPMWRTY3JpRUpFbnhGOTU0MzNvQzNYbEE1QXhBa3VST2RrVFBUbldRN0k2czVrOGF1ZlJhU29ZMmdHejFyVENhQWc9PQo="
+    }
+  }
+}
